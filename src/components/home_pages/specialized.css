@@ -1,0 +1,41 @@
+.specialized {
+   background: #F9F9F9;
+   height: max-content;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.specialized_items {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   width: 100vw;
+   max-width: 65rem;
+   margin: 0 auto;
+}
+
+.specialized_item_card {
+   display: flex;
+   /* flex-direction: row; */
+   height: 4rem;
+   width: 13rem;
+   background: white;
+   border-left: 7px solid #FFF856;
+   border-radius: 10px;
+   margin: 1rem;
+   margin-left: 0;
+   padding: 0.5rem;
+}
+
+.specialized_img {
+   object-fit: cover;
+   height: 3rem;
+   width: 3rem;
+   margin-top: 0.5rem;
+   margin-left: 0.5rem;
+}
+
+.specialized_item_card_name {
+   margin-top: 1.5rem;
+   margin-left: 1rem;
+}

@@ -1,0 +1,34 @@
+.home_page_how_to_start {
+   display: flex;
+   height: 20rem;
+   width: 100vw;
+   background-image: linear-gradient(to bottom right, #FF9900, #F2CB00);
+}
+
+.home_page_how_to_start_content {
+   height: 20rem;
+   width: 100vw;
+   max-width: 65rem;
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   /* background: wheat; */
+}
+
+.home_page_how_to_start_content_description {
+   width: 20rem;
+   text-align: center;
+}
+
+.home_page_how_to_start_title {
+   color: white;
+}
+
+.home_page_how_to_start_imgs {
+   /* display: flex; */
+   flex-direction: row;
+   position: relative;
+   bottom: 0;
+   /* background: white; */
+}

@@ -1,0 +1,29 @@
+.expertise {
+   margin-top: 3rem;
+}
+
+.expertise_content {
+   /* display: flex; */
+   width: 100vw;
+   max-width: 65rem;
+   margin: 0 auto;
+}
+
+.expertise_description {
+   max-width: 20.5rem;
+}
+
+.expertise_imgs {
+   display: flex;
+   justify-content: space-between;
+}
+
+.expertise_img_list {
+   max-width: 15rem;
+}
+
+.expertise_img_item {
+   object-fit: cover;
+   background: #FFF856;
+   border-radius: 5px;
+}
