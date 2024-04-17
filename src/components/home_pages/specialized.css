@@ -3,6 +3,17 @@
    height: max-content;
    padding-top: 1rem;
    padding-bottom: 1rem;
+   overflow: hidden;
+}
+
+.specialized_description {
+   width: 100vw;
+   max-width: 65rem;
+   margin: 0 auto;
+}
+
+.specialized_description h2 {
+   max-width: 15rem;
 }
 
 .specialized_items {
@@ -25,6 +36,8 @@
    margin: 1rem;
    margin-left: 0;
    padding: 0.5rem;
+   text-align: left;
+   /* justify-content: center; */
 }
 
 .specialized_img {
@@ -36,6 +49,7 @@
 }
 
 .specialized_item_card_name {
-   margin-top: 1.5rem;
+   /* margin-top: 1.5rem; */
    margin-left: 1rem;
+   justify-self: center;
 }

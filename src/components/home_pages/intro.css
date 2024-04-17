@@ -1,7 +1,6 @@
-/* .home_intro { */
-/* background: gray; */
-/* height: 100vh; */
-/* } */
+.home_intro {
+   overflow: hidden;
+}
 
 .home_intro_contents {
    /* background: magenta; */

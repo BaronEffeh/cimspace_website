@@ -1,4 +1,5 @@
 .home_page_how_to_start {
+   overflow: hidden;
    display: flex;
    height: 20rem;
    width: 100vw;
