@@ -6,3 +6,7 @@
    text-decoration: none;
    color: #16205F;
 }
+
+button:hover {
+   cursor: pointer;
+}

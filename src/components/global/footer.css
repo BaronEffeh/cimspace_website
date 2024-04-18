@@ -1,0 +1,20 @@
+.footer {
+   width: 100vw;
+}
+
+.footer_content {
+   width: 100vw;
+   max-width: 65rem;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+
+.quick_links_items,
+.services_links_items,
+.how_to_start_links_items {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+}

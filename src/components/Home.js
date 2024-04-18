@@ -1,4 +1,5 @@
 import Intro from "../components/home_pages/Intro";
+import ContactSection from "./global/ContactSection";
 import ArchitectEngineer from "./home_pages/ArchitectEngineer";
 import Clients from "./home_pages/Clients";
 import Expertise from "./home_pages/Expertise";
@@ -29,6 +30,8 @@ const Home = () => {
          {/* <ImageCarousel /> */}
 
          <Clients />
+
+         <ContactSection />
       </div>
    );
 }

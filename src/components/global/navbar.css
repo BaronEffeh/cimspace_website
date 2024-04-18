@@ -30,6 +30,10 @@
    top: 0;
 }
 
+.company_name {
+   color: #f5b031;
+}
+
 .logo h3 {
    display: flex;
    position: relative;
