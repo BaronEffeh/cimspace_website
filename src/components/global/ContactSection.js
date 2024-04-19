@@ -33,7 +33,7 @@ function ContactSection() {
       // Validate phone number format
       const phonePattern = /^[0-9]{11}$/;
       if (!phonePattern.test(formData.phone)) {
-         setSubmissionStatus('Invalid phone number. Please use a 10-digit format.');
+         setSubmissionStatus('Invalid phone number. Please use 11-digit format.');
          return;
       }
 
@@ -57,7 +57,7 @@ function ContactSection() {
       });
 
       // Set submission status message
-      setSubmissionStatus('Form submitted successfully.');
+      setSubmissionStatus('Your form was submitted successfully! Thank you for contacting us.');
    };
 
    return (
@@ -150,13 +150,15 @@ function ContactSection() {
                         </label>
                      </div>
 
+                     {/* Display submission status message */}
+                     {submissionStatus && (
+                        <b><p style={{ display: "flex", position: "absolute", color: "rgb(57, 190, 4)" }}>{submissionStatus}</p></b>
+                     )}
+
                      <button type="submit" className='contact_form_btn'>GET CONSULTATION</button>
                   </form>
 
-                  {/* Display submission status message */}
-                  {submissionStatus && (
-                     <p>{submissionStatus}</p>
-                  )}
+
                </div>
             </div>
          </div>
