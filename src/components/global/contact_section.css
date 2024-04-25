@@ -34,7 +34,7 @@
    position: absolute;
    right: 0;
    padding-inline: 2rem;
-   padding-top: 2rem;
+   padding-top: 1.5rem;
    border-radius: 5rem 0 0 0;
    z-index: 1;
 }
@@ -64,7 +64,7 @@
 }
 
 .contact_textarea {
-   margin: 2rem 0rem;
+   margin: 1rem 0rem;
 }
 
 .privacy_policy {

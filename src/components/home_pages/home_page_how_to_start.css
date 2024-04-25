@@ -1,7 +1,7 @@
 .home_page_how_to_start {
    overflow: hidden;
    display: flex;
-   height: 20rem;
+   height: 25rem;
    width: 100vw;
    background-image: linear-gradient(to bottom right, #FF9900, #F2CB00);
 }
@@ -10,7 +10,9 @@
    height: 20rem;
    width: 100vw;
    max-width: 65rem;
-   display: flex;
+   align-items: center;
+   align-content: center;
+   /* display: block; */
    justify-items: center;
    justify-content: center;
    margin: 0 auto;
@@ -20,6 +22,9 @@
 .home_page_how_to_start_content_description {
    width: 20rem;
    text-align: center;
+   display: block;
+   position: relative;
+   left: 33%;
 }
 
 .home_page_how_to_start_title {
@@ -27,9 +32,24 @@
 }
 
 .home_page_how_to_start_imgs {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   width: 100vw;
+   max-width: 65rem;
+   justify-items: center;
+
+   /* bottom: 0; */
    /* display: flex; */
-   flex-direction: row;
-   position: relative;
-   bottom: 0;
+   /* flex-direction: row; */
+   /* position: relative; */
    /* background: white; */
+}
+
+.home_page_how_to_start_img {
+   object-fit: contain;
+}
+
+.how_to_start_desc {
+   display: flex;
 }

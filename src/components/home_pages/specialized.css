@@ -41,7 +41,7 @@
 }
 
 .specialized_img {
-   object-fit: cover;
+   object-fit: contain;
    height: 3rem;
    width: 3rem;
    margin-top: 0.5rem;

@@ -11,6 +11,10 @@ import Home from "./components/Home";
 import HowToStart from "./components/HowToStart";
 import NavBar from "./components/global/NavBar";
 import Footer from "./components/global/Footer";
+import OurServices from "./components/OurServices";
+import Technologies from "./components/Technologies";
+import Careers from "./components/Careers";
+import ContactUs from "./components/ContactUs";
 // import './App.css';
 
 // function App() {
@@ -55,7 +59,11 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/how_to_start" element={<HowToStart />} />
+          <Route path="how_to_start" element={<HowToStart />} />
+          <Route path="services" element={<OurServices />} />
+          <Route path="technologies" element={<Technologies />} />
+          <Route path="careers" element={<Careers />} />
+          <Route path="contact_us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>

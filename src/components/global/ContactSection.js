@@ -4,7 +4,6 @@ import ContactImg from "../../assets/contact_img.png";
 import { Link } from 'react-router-dom';
 
 function ContactSection() {
-   // State variables to manage form input values
    const [formData, setFormData] = useState({
       company: '',
       name: '',
@@ -14,10 +13,8 @@ function ContactSection() {
       privacyPolicy: false,
    });
 
-   // State variable for submission status
    const [submissionStatus, setSubmissionStatus] = useState('');
 
-   // Event handler for form input changes
    const handleChange = (e) => {
       const { name, value, type, checked } = e.target;
       setFormData((prevData) => ({
@@ -28,22 +25,19 @@ function ContactSection() {
 
    // Event handler for form submission
    const handleSubmit = (e) => {
-      e.preventDefault(); // Prevent default form submission
+      e.preventDefault();
 
-      // Validate phone number format
       const phonePattern = /^[0-9]{11}$/;
       if (!phonePattern.test(formData.phone)) {
          setSubmissionStatus('Invalid phone number. Please use 11-digit format.');
          return;
       }
 
-      // Check if the privacy policy checkbox is checked
       if (!formData.privacyPolicy) {
          setSubmissionStatus('Please accept the Privacy Policy.');
          return;
       }
 
-      // Handle form submission (replace this with your own submission logic, e.g., API call)
       console.log('Form data submitted:', formData);
 
       // Clear form fields if submission is successful
@@ -56,8 +50,8 @@ function ContactSection() {
          privacyPolicy: false,
       });
 
-      // Set submission status message
-      setSubmissionStatus('Your form was submitted successfully! Thank you for contacting us.');
+      // Submission status message
+      setSubmissionStatus('Thank you! Your form was submitted successfully.');
    };
 
    return (
@@ -68,7 +62,7 @@ function ContactSection() {
             </div>
             <div className="contact_form">
                <div className="contact_form_content">
-                  <h1 className='contact_form_heading'>Connect With Your <br /> Next Great Hire Today!</h1>
+                  <h2 className='contact_form_heading'>Connect With Your <br /> Next Great Hire Today!</h2>
 
                   <form onSubmit={handleSubmit}>
                      <div className="contact_form_inputs">
@@ -152,7 +146,7 @@ function ContactSection() {
 
                      {/* Display submission status message */}
                      {submissionStatus && (
-                        <b><p style={{ display: "flex", position: "absolute", color: "rgb(57, 190, 4)" }}>{submissionStatus}</p></b>
+                        <p style={{ display: "flex", position: "absolute", color: "rgb(57, 190, 4)" }}>{submissionStatus}</p>
                      )}
 
                      <button type="submit" className='contact_form_btn'>GET CONSULTATION</button>

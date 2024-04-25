@@ -1,5 +1,5 @@
 import "../home_pages/home_page_how_to_start.css";
-// import YouAsk from "../..assets/you_ask.png";
+import YouAsk from "../../assets/you_ask.png";
 import WeProceed from "../../assets/we_proceed.png";
 import Negotiate from "../../assets/handshake.png";
 import Medal from "../../assets/medal.png";
@@ -15,16 +15,32 @@ const HomePageHowToStart = () => {
             </div>
             <div className="home_page_how_to_start_imgs">
                <div className="home_page_how_to_start_img">
-                  {/* <img src={YouAsk} alt="" /> */}
+                  <img src={YouAsk} alt="" />
+                  <div className="how_to_start_desc">
+                     <h2>01</h2>
+                     <p>YOU ASK</p>
+                  </div>
                </div>
                <div className="home_page_how_to_start_img">
                   <img src={WeProceed} alt="" />
+                  <div className="how_to_start_desc">
+                     <h2>02</h2>
+                     <p>WE PROCEED</p>
+                  </div>
                </div>
                <div className="home_page_how_to_start_img">
                   <img src={Negotiate} alt="" />
+                  <div className="how_to_start_desc">
+                     <h2>03</h2>
+                     <p>NEGOTIATE</p>
+                  </div>
                </div>
                <div className="home_page_how_to_start_img">
                   <img src={Medal} alt="" />
+                  <div className="how_to_start_desc">
+                     <h2>04</h2>
+                     <p>YOU GET</p>
+                  </div>
                </div>
 
 

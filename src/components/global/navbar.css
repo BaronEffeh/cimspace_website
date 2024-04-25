@@ -2,6 +2,7 @@
    background: #FFFFFF;
    height: 3rem;
    width: 100vw;
+   max-width: 100%;
    margin: 0 auto;
    display: flex;
    position: sticky;
@@ -32,6 +33,7 @@
 
 .company_name {
    color: #f5b031;
+   /* margin-top: 0; */
 }
 
 .logo h3 {
@@ -59,4 +61,9 @@
    border: 1px solid rgb(3, 3, 129);
    border-radius: 5px;
    background: transparent;
+}
+
+.desktopMenuBtn:hover {
+   /* background: #F2CB00; */
+   background-image: linear-gradient(to bottom right, #FF9900, #F2CB00);
 }

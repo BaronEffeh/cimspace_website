@@ -1,0 +1,31 @@
+.why_you_need_to_hire_container {
+   width: 100vw;
+   max-width: 65rem;
+   margin: 0 auto;
+   margin-top: 5rem;
+}
+
+.why_you_need_to_hire_points {
+   margin-top: 3rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+.developers_img {
+   margin-top: 5rem;
+   background-image: url('../../assets/developers.png');
+   /* margin-bottom: 5rem; */
+}
+
+.developers_img img {
+   object-fit: cover;
+   width: 65rem;
+}
+
+.no_of_developers {
+   display: flex;
+   position: absolute;
+   top: 0;
+   z-index: +2;
+}

@@ -5,8 +5,18 @@
 * {
    text-decoration: none;
    color: #16205F;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   overflow: hidden;
+   overflow-y: scroll;
 }
 
 button:hover {
    cursor: pointer;
+}
+
+:any-link:hover {
+   color: #FF9900;
 }

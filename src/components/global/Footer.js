@@ -20,30 +20,30 @@ const Footer = () => {
                   <Link className="navbar_logo" to="/"><img src={logo} alt="Logo" /> <h3 className="company_name">Cimspace Technologies</h3></Link>
                </div>
                <p>Expertly trained, battle-tested, elite software developers on demand</p>
-               <p><img src={PhoneCall} alt="" /> +234 701 292 8822</p>
+               <p><img src={PhoneCall} alt="" /><a href="tel:+234-706-252-8242">+234 706 252 8242</a></p>
                <p><img src={EmailIcon} alt="" /> info@cimspace.com</p>
-               <p><img src={LocationIcon} alt="" /> #23 Yaounde Street, Wuse Zone 6, FCT - Abuja, Nigeria.</p>
+               <p><img src={LocationIcon} alt="" />#23 Yaounde Street, Wuse Zone 6, FCT - Abuja, Nigeria.</p>
                <h3>Follow us</h3>
                <div className="social_media_icons" style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2rem" }}>
                   <Link><img src={LinkedIn} alt="" /></Link>
-                  <Link><img src={FacebookIcon} alt="" /></Link>
+                  <Link to="https://web.facebook.com/cimspace"><img src={FacebookIcon} alt="" /></Link>
                   <Link><img src={InstagramIcon} alt="" /></Link>
                   <Link><img src={TwitterIcon} alt="" /></Link>
                   <Link><img src={YoutubeIcon} alt="" /></Link>
                </div>
             </div>
             <div className="quick_links">
-               <h2>Company</h2>
+               <h3>Company</h3>
                <div className="quick_links_items">
-                  <Link>About Us</Link>
-                  <Link>Success Stories</Link>
-                  <Link>Privacy Policy</Link>
-                  <Link>Terms & Conditions</Link>
-                  <Link>Contact Us</Link>
+                  <Link to="about_us">About Us</Link>
+                  <Link to="success_stories">Success Stories</Link>
+                  <Link to="privacy_policy">Privacy Policy</Link>
+                  <Link to="terms">Terms & Conditions</Link>
+                  <Link to="contact_us">Contact Us</Link>
                </div>
             </div>
             <div className="services_links">
-               <h2>Services</h2>
+               <h3>Services</h3>
                <div className="services_links_items">
                   <Link>Hire Permanent Staff</Link>
                   <Link>Staff Augmentation</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                </div>
             </div>
             <div className="how_to_start_links">
-               <h2>How to Start</h2>
+               <h3>How to Start</h3>
                <div className="how_to_start_links_items">
                   <Link>You Asked</Link>
                   <Link>We Proceed</Link>

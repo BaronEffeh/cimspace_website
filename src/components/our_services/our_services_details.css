@@ -1,0 +1,33 @@
+.our_services_details {
+   margin-top: 7rem;
+}
+
+.our_services_details_desc {
+   width: 25rem;
+}
+
+.our_services_details_options {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+
+.our_services_details_option_list img {
+   background: #F2CB00;
+   border: none;
+   border-radius: 5px;
+}
+
+.our_services_details_option_list {
+   display: flex;
+   /* position: relative; */
+}
+
+.our_services_details_option_list_img {
+   object-fit: cover;
+   margin-top: 1.5rem;
+}
+
+.our_services_details_option_list_text {
+   margin-left: 1.5rem;
+}
