@@ -29,7 +29,7 @@ const Clients = () => {
       Client3,
       Client4,
       Client5,
-      Client6,
+      Client6
    ];
 
    const handleNextSlide = () => {

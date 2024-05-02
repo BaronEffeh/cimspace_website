@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../../components/technologies/tech_tools.css";
 import JavaScript from "../../assets/tech_tools/js.png";
 import ReactLogo from "../../assets/tech_tools/react_logo.png";
 import VueJs from "../../assets/tech_tools/logo-vuejs-min.png";
@@ -85,7 +86,7 @@ const TechTools = () => {
 
    return (
       <div style={{ width: '100vw', maxWidth: '65rem', margin: '5rem auto' }}>
-         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+         <div className='tech_tools_categories' style={{ display: 'flex', justifyContent: 'space-between' }}>
             <button onClick={() => setFilter('All')}>All</button>
             <button onClick={() => setFilter('Frontend')}>Frontend</button>
             <button onClick={() => setFilter('Backend')}>Backend</button>

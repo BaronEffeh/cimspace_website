@@ -1,0 +1,9 @@
+.tech_tools_categories button {
+   border: none;
+   border-radius: 10px;
+   background: transparent;
+}
+
+.tech_tools_categories button:hover {
+   background-image: linear-gradient(to bottom right, #FF9900, #F2CB00);
+}

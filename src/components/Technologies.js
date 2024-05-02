@@ -6,7 +6,7 @@ const Technologies = () => {
    return (
       <div>
          <TechnologiesIntro />
-         <h1>Technologies</h1>
+         <h1 style={{ maxWidth: "65rem", margin: "0 auto" }}>Technologies</h1>
          <div className="technologies" style={{ width: "100vw", maxWidth: "65rem", margin: "0 auto" }}>
             {/* <h1>Technologies</h1> */}
 
