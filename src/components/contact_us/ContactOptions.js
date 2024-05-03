@@ -54,20 +54,9 @@ const ContactOptions = () => {
 
                </div>
             </div>
-            {/* <div className="how_to_start_links">
-               <h3>How to Start</h3>
-               <div className="how_to_start_links_items">
-                  <Link>You Asked</Link>
-                  <Link>We Proceed</Link>
-                  <Link>Negotiate</Link>
-                  <Link>You Get</Link>
-               </div>
-            </div> */}
+
          </div>
-         {/* <hr style={{ border: "1px solid #C4C4C4", width: "100vw", maxWidth: "100%" }} />
-         <div className="footer_buttom" style={{ width: "100vw", maxWidth: "65rem", margin: "0 auto" }}>
-            <p>&copy; cimspace technologies 2024</p>
-         </div> */}
+
       </div >
    );
 }
