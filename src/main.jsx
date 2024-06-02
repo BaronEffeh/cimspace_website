@@ -15,6 +15,7 @@ import OurServices from "./components/OurServices";
 import Technologies from "./components/Technologies";
 import Careers from "./components/Careers";
 import ContactUs from "./components/ContactUs";
+import { Helmet } from "react-helmet";
 // import './App.css';
 
 // function App() {
@@ -56,6 +57,9 @@ function App() {
   return (
     <BrowserRouter>
       <div>
+        <Helmet>
+          <title>Cimspace Technologies | Cimspace Technologies</title>
+        </Helmet>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

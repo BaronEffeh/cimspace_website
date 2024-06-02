@@ -53,3 +53,9 @@
    margin-left: 1rem;
    justify-self: center;
 }
+
+@media (max-width: 1000px) {
+   .specialized_containt {
+      margin: 10px 15px;
+   }
+}

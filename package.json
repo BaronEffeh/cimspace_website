@@ -1,23 +1,23 @@
 {
   "name": "cimspace_website",
   "version": "0.1.0",
+  "homepage": "https://BaronEffeh/github.io/cimspace_website",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "sort-by": "^1.2.0",
-    "web-vitals": "^2.1.4"
+    "sort-by": "^1.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.3"
