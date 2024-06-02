@@ -100,7 +100,6 @@ const TechTools = () => {
             <button onClick={() => setFilter('CMS')}>CMS</button>
             <button onClick={() => setFilter('ECommerce')}>ECommerce</button>
             <button onClick={() => setFilter('Security')}>Security</button>
-            {/* Add more buttons for other categories */}
          </div>
          <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             {filteredCards.map(card => (

@@ -48,8 +48,26 @@
 
 .home_page_how_to_start_img {
    object-fit: contain;
+   height: 100px;
+   width: 100px;
 }
 
 .how_to_start_desc {
    display: flex;
+}
+
+@media (max-width: 1000px) {
+   .home_page_how_to_start_content {
+      height: fit-content;
+   }
+
+   .home_page_how_to_start_imgs {
+      margin: 0 auto;
+      max-width: 80%;
+   }
+
+   .home_page_how_to_start_img {
+      height: 50px;
+      width: 50px;
+   }
 }

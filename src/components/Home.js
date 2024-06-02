@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Intro from "../components/home_pages/Intro";
 import ContactSection from "./global/ContactSection";
 import ArchitectEngineer from "./home_pages/ArchitectEngineer";
@@ -12,6 +13,9 @@ import Technologies from "./home_pages/Technologies";
 const Home = () => {
    return (
       <div className="content">
+         <Helmet>
+            <title>Cimspace Technologies</title>
+         </Helmet>
 
          <Intro />
 

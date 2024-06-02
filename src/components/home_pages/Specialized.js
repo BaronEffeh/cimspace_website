@@ -51,81 +51,83 @@ const Specialized = () => {
 
    return (
       <div className="specialized">
-         <div className="specialized_description">
-            <h5>Specialized</h5>
-            <h2>Specialized Staff We Provide</h2>
-         </div>
+         <div className="specialized_containt">
+            <div className="specialized_description">
+               <h5>Specialized</h5>
+               <h2>Specialized Staff We Provide</h2>
+            </div>
 
-         <div className="specialized_items">
-            {taskList.map((task) => (
-               <div key={task.id} className="specialized_item_card">
-                  {task.category === 'Frontend' && (
-                     <img src={Frontend} alt="Frontend" className='specialized_img' />
-                  )}
-                  {task.category === 'Angular' && (
-                     <img src={Angular} alt="Angular" className='specialized_img' />
-                  )}
-                  {task.category === 'AiMl' && (
-                     <img src={AiMl} alt="AI/ML" className='specialized_img' />
-                  )}
-                  {task.category === 'AppSecurity' && (
-                     <img src={AppSecurity} alt="AppSecurity" className='specialized_img' />
-                  )}
-                  {task.category === 'Fullstack' && (
-                     <img src={Fullstack} alt="Fullstack" className='specialized_img' />
-                  )}
-                  {task.category === 'DevOps' && (
-                     <img src={DevOps} alt="Dev Ops" className='specialized_img' />
-                  )}
-                  {task.category === 'DataScience' && (
-                     <img src={DataScience} alt="Data Science" className='specialized_img' />
-                  )}
-                  {task.category === 'IosAndroidDev' && (
-                     <img src={IosAndroidDev} alt="IOS Android Dev" className='specialized_img' />
-                  )}
-                  {task.category === 'UiUx' && (
-                     <img src={UiUx} alt="UI/UX" className='specialized_img' />
-                  )}
-                  {task.category === 'Php' && (
-                     <img src={Php} alt="PHP" className='specialized_img' />
-                  )}
-                  {task.category === 'ProjectManager' && (
-                     <img src={ProjectManager} alt="Project Manager" className='specialized_img' />
-                  )}
-                  {task.category === 'SolutionArchitects' && (
-                     <img src={SolutionArchitects} alt="Solution Architects" className='specialized_img' />
-                  )}
-                  {task.category === 'QAEngineers' && (
-                     <img src={QAEngineers} alt="QAEngineers" className='specialized_img' />
-                  )}
-                  {task.category === 'Wordpress' && (
-                     <img src={Wordpress} alt="Wordpress" className='specialized_img' />
-                  )}
-                  {task.category === 'Analysis' && (
-                     <img src={Analysis} alt="Analysis" className='specialized_img' />
-                  )}
-                  {task.category === 'TechLeads' && (
-                     <img src={TechLeads} alt="TechLeads" className='specialized_img' />
-                  )}
-                  {task.category === 'ProductDesigner' && (
-                     <img src={ProductDesigner} alt="ProductDesigner" className='specialized_img' />
-                  )}
-                  {task.category === 'MobileAppDev' && (
-                     <img src={MobileAppDev} alt="MobileAppDev" className='specialized_img' />
-                  )}
-                  {task.category === 'InfoSecurity' && (
-                     <img src={InfoSecurity} alt="InfoSecurity" className='specialized_img' />
-                  )}
-                  {task.category === 'GoLogo' && (
-                     <img src={GoLogo} alt="GoLogo" className='specialized_img' />
-                  )}
-                  {task.category === 'Database' && (
-                     <img src={Database} alt="Database" className='specialized_img' />
-                  )}
-                  {/* Display specialty */}
-                  <div className='specialized_item_card_name'>{task.specialty}</div>
-               </div>
-            ))}
+            <div className="specialized_items">
+               {taskList.map((task) => (
+                  <div key={task.id} className="specialized_item_card">
+                     {task.category === 'Frontend' && (
+                        <img src={Frontend} alt="Frontend" className='specialized_img' />
+                     )}
+                     {task.category === 'Angular' && (
+                        <img src={Angular} alt="Angular" className='specialized_img' />
+                     )}
+                     {task.category === 'AiMl' && (
+                        <img src={AiMl} alt="AI/ML" className='specialized_img' />
+                     )}
+                     {task.category === 'AppSecurity' && (
+                        <img src={AppSecurity} alt="AppSecurity" className='specialized_img' />
+                     )}
+                     {task.category === 'Fullstack' && (
+                        <img src={Fullstack} alt="Fullstack" className='specialized_img' />
+                     )}
+                     {task.category === 'DevOps' && (
+                        <img src={DevOps} alt="Dev Ops" className='specialized_img' />
+                     )}
+                     {task.category === 'DataScience' && (
+                        <img src={DataScience} alt="Data Science" className='specialized_img' />
+                     )}
+                     {task.category === 'IosAndroidDev' && (
+                        <img src={IosAndroidDev} alt="IOS Android Dev" className='specialized_img' />
+                     )}
+                     {task.category === 'UiUx' && (
+                        <img src={UiUx} alt="UI/UX" className='specialized_img' />
+                     )}
+                     {task.category === 'Php' && (
+                        <img src={Php} alt="PHP" className='specialized_img' />
+                     )}
+                     {task.category === 'ProjectManager' && (
+                        <img src={ProjectManager} alt="Project Manager" className='specialized_img' />
+                     )}
+                     {task.category === 'SolutionArchitects' && (
+                        <img src={SolutionArchitects} alt="Solution Architects" className='specialized_img' />
+                     )}
+                     {task.category === 'QAEngineers' && (
+                        <img src={QAEngineers} alt="QAEngineers" className='specialized_img' />
+                     )}
+                     {task.category === 'Wordpress' && (
+                        <img src={Wordpress} alt="Wordpress" className='specialized_img' />
+                     )}
+                     {task.category === 'Analysis' && (
+                        <img src={Analysis} alt="Analysis" className='specialized_img' />
+                     )}
+                     {task.category === 'TechLeads' && (
+                        <img src={TechLeads} alt="TechLeads" className='specialized_img' />
+                     )}
+                     {task.category === 'ProductDesigner' && (
+                        <img src={ProductDesigner} alt="ProductDesigner" className='specialized_img' />
+                     )}
+                     {task.category === 'MobileAppDev' && (
+                        <img src={MobileAppDev} alt="MobileAppDev" className='specialized_img' />
+                     )}
+                     {task.category === 'InfoSecurity' && (
+                        <img src={InfoSecurity} alt="InfoSecurity" className='specialized_img' />
+                     )}
+                     {task.category === 'GoLogo' && (
+                        <img src={GoLogo} alt="GoLogo" className='specialized_img' />
+                     )}
+                     {task.category === 'Database' && (
+                        <img src={Database} alt="Database" className='specialized_img' />
+                     )}
+                     {/* Display specialty */}
+                     <div className='specialized_item_card_name'>{task.specialty}</div>
+                  </div>
+               ))}
+            </div>
          </div>
       </div>
    );

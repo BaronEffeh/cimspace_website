@@ -28,3 +28,9 @@
    background: #FFF856;
    border-radius: 5px;
 }
+
+@media (max-width: 1000px) {
+   .expertise_content {
+      margin: 10px 15px;
+   }
+}

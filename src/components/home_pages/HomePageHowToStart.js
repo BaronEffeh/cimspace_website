@@ -14,29 +14,29 @@ const HomePageHowToStart = () => {
                <p>We specialize in helping you build a team of expert developers, testers, and leaders.</p>
             </div>
             <div className="home_page_how_to_start_imgs">
-               <div className="home_page_how_to_start_img">
-                  <img src={YouAsk} alt="" />
+               <div >
+                  <img src={YouAsk} alt="" className="home_page_how_to_start_img" />
                   <div className="how_to_start_desc">
                      <h2>01</h2>
                      <p>YOU ASK</p>
                   </div>
                </div>
-               <div className="home_page_how_to_start_img">
-                  <img src={WeProceed} alt="" />
+               <div >
+                  <img src={WeProceed} alt="" className="home_page_how_to_start_img" />
                   <div className="how_to_start_desc">
                      <h2>02</h2>
                      <p>WE PROCEED</p>
                   </div>
                </div>
-               <div className="home_page_how_to_start_img">
-                  <img src={Negotiate} alt="" />
+               <div >
+                  <img src={Negotiate} alt="" className="home_page_how_to_start_img" />
                   <div className="how_to_start_desc">
                      <h2>03</h2>
                      <p>NEGOTIATE</p>
                   </div>
                </div>
-               <div className="home_page_how_to_start_img">
-                  <img src={Medal} alt="" />
+               <div >
+                  <img src={Medal} alt="" className="home_page_how_to_start_img" />
                   <div className="how_to_start_desc">
                      <h2>04</h2>
                      <p>YOU GET</p>
