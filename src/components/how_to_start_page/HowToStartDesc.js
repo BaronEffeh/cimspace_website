@@ -6,7 +6,7 @@ import Hire from "../../assets/hire.png";
 const HowToStartDesc = () => {
    return (
       <div className="container" style={{}}>
-         <div className="how_to_start_desc" style={{ width: "25rem", marginTop: "5rem" }}>
+         <div className="how_to_start_desc">
             <h2>How to Get Started with Cimspace</h2>
             <p>From full-time remote engineering teams to hourly contractors, work with remote devs as needed</p>
          </div>
