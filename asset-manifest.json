@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cimspace_website/static/css/main.9c7b8883.css",
-    "main.js": "/cimspace_website/static/js/main.1b473d63.js",
+    "main.css": "/cimspace_website/static/css/main.27a99a8d.css",
+    "main.js": "/cimspace_website/static/js/main.1ef8c94c.js",
     "static/media/EMTECH FULL.jpg": "/cimspace_website/static/media/EMTECH FULL.41c74e5a7b1d85f87025.jpg",
     "static/media/EMTECH LIGHT.jpg": "/cimspace_website/static/media/EMTECH LIGHT.9a840348d0f6db6314b6.jpg",
     "static/media/baroneffeh.jpg": "/cimspace_website/static/media/baroneffeh.427b0909a996aff3b929.jpg",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/cimspace_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/cimspace_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cimspace_website/index.html",
-    "main.9c7b8883.css.map": "/cimspace_website/static/css/main.9c7b8883.css.map",
-    "main.1b473d63.js.map": "/cimspace_website/static/js/main.1b473d63.js.map"
+    "main.27a99a8d.css.map": "/cimspace_website/static/css/main.27a99a8d.css.map",
+    "main.1ef8c94c.js.map": "/cimspace_website/static/js/main.1ef8c94c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c7b8883.css",
-    "static/js/main.1b473d63.js"
+    "static/css/main.27a99a8d.css",
+    "static/js/main.1ef8c94c.js"
   ]
 }
