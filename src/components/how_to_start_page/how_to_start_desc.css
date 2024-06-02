@@ -4,6 +4,13 @@
    margin: 0 auto;
 }
 
+.how_to_start_desc {
+   display: flex;
+   flex-direction: column;
+   width: 25rem;
+   margin-top: 5rem;
+}
+
 .how_to_start_process {
    display: flex;
 }

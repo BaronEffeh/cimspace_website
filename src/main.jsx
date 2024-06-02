@@ -16,6 +16,7 @@ import Technologies from "./components/Technologies";
 import Careers from "./components/Careers";
 import ContactUs from "./components/ContactUs";
 import { Helmet } from "react-helmet";
+import Error404 from "./components/Error404";
 // import './App.css';
 
 // function App() {
@@ -68,6 +69,7 @@ function App() {
           <Route path="technologies" element={<Technologies />} />
           <Route path="careers" element={<Careers />} />
           <Route path="contact_us" element={<ContactUs />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
         <Footer />
       </div>
