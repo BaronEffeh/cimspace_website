@@ -1,7 +1,7 @@
 {
   "name": "cimspace_website",
   "version": "0.1.0",
-  "homepage": "https://BaronEffeh/github.io/cimspace_website",
+  "homepage": "https://BaronEffeh.github.io/cimspace_website",
   "private": true,
   "dependencies": {
     "localforage": "^1.10.0",
